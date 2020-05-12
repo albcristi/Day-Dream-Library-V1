@@ -10,7 +10,7 @@ updates will come...
 
 # Project Structure
 
-- DataBase: [PostrgeSQL](https://www.postgresql.org/)
+- DataBase: [PostrgreSQL](https://www.postgresql.org/)
 - BackEnd: Java, Spring Framework
 - FrontEnd: TypeScript, Angular Framework
 
@@ -25,5 +25,5 @@ Dependency management via  Gradle
 3 Make sure you have Angular installed
   - [How to run an Angular project](https://angular.io/guide/setup-local)
   
-4  Run the Tomcat server
+4 Run the Tomcat server
 5 Run the Angular Project
