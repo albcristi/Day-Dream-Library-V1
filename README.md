@@ -1,4 +1,4 @@
-# Day-Dream-Library
+# DayDream Library
 
 Day Dream Libary is a simple web application, that  <br/>
 has some clients, books and corresponding sales.
