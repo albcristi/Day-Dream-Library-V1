@@ -1,0 +1,47 @@
+
+.addNewBook{
+  margin-top: 5%;
+  margin-left: 42%;
+}
+
+.addNewBook p{
+  font-family: Monospaced;
+  text-align: center;
+  font-size: 30px;
+  color: #607D8B;
+  margin-left: -60%;
+}
+
+#enterBookDataPart{
+  margin-left: -12%;
+}
+
+#title_add_label, #author_add_label, #price_add_label{
+  font-family: Monospaced;
+  font-size: 30px;
+  color: #607D8B;
+  margin-right: 5%;
+}
+
+#title_add_input, #author_add_input, #price_add_input{
+  font-family: Monospaced;
+  font-size: 30px;
+  color: #607D8B;
+}
+
+#addBookButton{
+  margin-top: 4%;
+  margin-left: 8%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: Monospaced;
+  font-size: 25px;
+  color: #607D8B;
+  border-radius: 10px;
+}
+
+#addBookButton:hover{
+  background-color: #CFD8DC;
+}

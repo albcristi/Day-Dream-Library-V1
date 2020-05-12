@@ -1,0 +1,45 @@
+
+.addNewClient{
+  margin-top: 5%;
+  margin-left: 42%;
+}
+
+.addNewClient p{
+  font-family: Monospaced;
+  text-align: center;
+  font-size: 30px;
+  color: dimgrey;
+  margin-left: -60%;
+}
+
+#enterDataPart{
+  margin-left: -12%;
+}
+#name_label_add{
+  font-family: Monospaced;
+  font-size: 30px;
+  color: dimgrey;
+  margin-right: 5%;
+}
+
+#inpAddName{
+  font-family: Monospaced;
+  font-size: 30px;
+  color: dimgrey;
+}
+#addButton{
+  margin-top: 4%;
+  margin-left: 8%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: Monospaced;
+  font-size: 25px;
+  color: dimgrey;
+  border-radius: 10px;
+}
+
+#addButton:hover{
+  background-color: #CFD8DC;
+}

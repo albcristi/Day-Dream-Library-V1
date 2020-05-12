@@ -1,0 +1,20 @@
+<div class="bookDetails"  *ngIf="book">
+  <p id="bookDetailParagraph">About {{book.title}}</p>
+  <div id="book_title">
+    <label id="book_title_label">Title</label>
+    <input id="book_title_input" [(ngModel)]="book.title" placeholder="Book Title">
+  </div>
+  <div id="book_author">
+    <label id="book_author_label">Money Spent </label>
+    <input id="book_author_input" [(ngModel)]="book.author">
+  </div>
+  <div id="book_price">
+    <label id="book_price_label">Money Spent </label>
+    <input id="book_price_input" [(ngModel)]="book.price">
+  </div>
+  <div class="buttContainerClientDetail">
+    <button id="saveButtonBookDet" (click)="saveBookModifications()">Save</button>
+    <button id="backButtonBookDet" (click)="goBack()">Back</button>
+  </div>
+</div>
+

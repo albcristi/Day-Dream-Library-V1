@@ -1,0 +1,42 @@
+
+.clientDetails{
+  margin-top:10%;
+  margin-left: 30%;
+}
+
+#clientDetParagraph{
+  font-family: Monospaced;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+#client_money_spent_label, #client_name_label{
+  font-family: Monospaced;
+  font-size: 25px;
+  padding: 5%;
+
+}
+
+#client_money_spent_input, #client_name_input{
+  padding: 1.2%;
+  border-radius: 5px;
+  background:  #BBD8DC ;
+}
+
+.buttContainerClientDetail{
+  display: flex;
+  margin-top:2%;
+  margin-left: 15%;
+}
+#saveButtonClDet, #backButtonClDet{
+  padding: 1.99%;
+  font-family: Monospaced;
+  font-size: 20px;
+  margin-right: 2.5%;
+  border-radius: 9px;
+}
+
+
+
+
+

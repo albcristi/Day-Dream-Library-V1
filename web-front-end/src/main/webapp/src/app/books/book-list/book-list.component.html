@@ -1,0 +1,18 @@
+<div class="book-section">
+
+  <div id="selBooktDiv" *ngIf="selectedBook">
+    <p id="selBookName">The interesting book '{{selectedBook.title}}' written by {{selectedBook.author}}</p>
+    <button (click)="goToBookDetail()">Show details about {{selectedBook.title}}</button>
+  </div>
+
+  <div class="bookContainer">
+    <p id="bookParagraph">Our finest book selection</p>
+    <li class="bookElem" *ngFor="let book of books"
+        [class.selected]="book === selectedBook"
+        (click)="onSelect(book)">
+        '{{book.title}}' by {{book.author}}
+      <button id="remBook" (click)="removeBook(book); $event.stopPropagation()">Remove Book</button>
+    </li>
+  </div>
+
+</div>

@@ -1,0 +1,5 @@
+rootProject.name = 'lab11_12_angular_alb'
+include 'bookstore-core'
+include 'bookstore-web'
+include 'web-front-end'
+

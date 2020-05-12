@@ -1,0 +1,44 @@
+
+.bookDetails{
+  margin-top:10%;
+  margin-left: 30%;
+}
+
+#bookDetailParagraph{
+  font-family: Monospaced;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+#book_author_label, #book_title_label, #book_price_label{
+  font-family: Monospaced;
+  font-size: 25px;
+  padding: 5%;
+
+}
+.bookDetails > p{
+  color: #607D8B;
+}
+#book_author_input, #book_price_input, #book_title_input{
+  padding: 1.2%;
+  border-radius: 5px;
+  background:  #BBD8DC ;
+}
+
+.buttContainerBookDetail{
+  display: flex;
+  margin-top:2%;
+  margin-left: 15%;
+}
+#saveButtonBookDet, #backButtonBookDet{
+  padding: 1.99%;
+  font-family: Monospaced;
+  font-size: 20px;
+  margin-right: 2.5%;
+  border-radius: 9px;
+}
+
+
+
+
+

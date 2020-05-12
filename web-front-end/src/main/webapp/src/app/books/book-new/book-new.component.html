@@ -1,0 +1,20 @@
+<div class="addNewBook">
+  <p>We are happy to have you here!<br/>One more step...</p>
+  <div id="enterBookDataPart">
+    <div id="title_add_div">
+      <label id="title_add_label">Title</label>
+      <input id="title_add_input" #title>
+    </div>
+    <div id="author_add_div">
+      <label id="author_add_label">Author</label>
+      <input id="author_add_input" #author>
+    </div>
+    <div id="price_add_div">
+      <label id="price_add_label">Price</label>
+      <input id="price_add_input" #price>
+    </div>
+  </div>
+  <div id="addBookButtonContainer">
+    <button id="addBookButton" (click)="saveBook(title.value, author.value, price.value)">Add Book</button>
+  </div>
+</div>

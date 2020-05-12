@@ -1,0 +1,33 @@
+<div class="buy-book-container">
+
+  <div class="form-data-show">
+      <div id="selClientDiv" *ngIf="selectedClient">
+        <p id="selClientName">Selected Client: {{selectedClient.name}}</p>
+      </div>
+
+      <div id="selBooktDiv" *ngIf="selectedBook">
+        <p id="selBookName">Selected book'{{selectedBook.title}}' written by {{selectedBook.author}}</p>
+        <button id="buy-book-button" (click)="buyBook()">Buy {{selectedBook.title}}</button>
+      </div>
+  </div>
+
+  <div class="clientContainer" id="cl-cont-buy">
+    <p id="clientParagraph">Pick A Client</p>
+    <li class="clientElem" *ngFor="let client of clients"
+        [class.selected]="client === selectedClient"
+        (click)="onSelect(client)">
+      {{client.name}}
+    </li>
+  </div>
+
+  <div class="bookContainer" id="book-cont-buy">
+    <p id="bookParagraph">Pick A Book</p>
+    <li class="bookElem" *ngFor="let book of booksArr"
+        [class.selected]="book === selectedBook"
+        (click)="onSelectBook(book)">
+      '{{book.title}}' by {{book.author}}
+    </li>
+  </div>
+
+</div>
+

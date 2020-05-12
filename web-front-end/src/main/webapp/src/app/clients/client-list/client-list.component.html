@@ -1,0 +1,19 @@
+<div class="student-section">
+  <div id="selClientDiv" *ngIf="selectedClient">
+    <p id="selClientName">Our beloved client {{selectedClient.name}}</p>
+    <button (click)="goToClientDetail()">Show details about {{selectedClient.name}}</button>
+  </div>
+
+
+  <div class="clientContainer">
+    <p id="clientParagraph">Our Clients</p>
+    <li class="clientElem" *ngFor="let client of clients"
+        [class.selected]="client === selectedClient"
+        (click)="onSelect(client)">
+        {{client.name}}
+      <!-- TODO: Add delete button here -->
+      <button id="remClient" (click)="removeClient(client); $event.stopPropagation()">Remove</button>
+    </li>
+  </div>
+
+</div>

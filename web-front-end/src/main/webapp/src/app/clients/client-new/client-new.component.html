@@ -1,0 +1,12 @@
+<div class="addNewClient">
+  <p>We are happy to have you here!<br/>One more step...</p>
+   <div id="enterDataPart">
+     <div id="name_add_div">
+          <label id="name_label_add">Your Name</label>
+          <input id="inpAddName" #name>
+     </div>
+   </div>
+  <div id="addButtonContainer">
+    <button id="addButton" (click)="saveClient(name.value)">Become A Client</button>
+  </div>
+</div>

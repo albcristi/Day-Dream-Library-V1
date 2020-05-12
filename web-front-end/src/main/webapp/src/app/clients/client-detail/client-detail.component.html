@@ -1,0 +1,16 @@
+<div class="clientDetails"  *ngIf="client">
+  <p id="clientDetParagraph">About {{client.name}}</p>
+  <div id="client_name">
+    <label id="client_name_label">Client Name</label>
+    <input id="client_name_input" [(ngModel)]="client.name" placeholder="Client Name">
+  </div>
+  <div id="client_money_spent">
+    <label id="client_money_spent_label">Money Spent </label>
+    <input id="client_money_spent_input" [(ngModel)]="client.moneySpent">
+  </div>
+  <div class="buttContainerBookDetail">
+    <button id="saveButtonClDet" (click)="save()">Save</button>
+    <button id="backButtonClDet" (click)="goBack()">Back</button>
+  </div>
+</div>
+
